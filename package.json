@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pcm5433.github.io/frontend_dictionary/",
+  "homepage": "https://pcm5433.github.io/dictionary/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
