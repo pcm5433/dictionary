@@ -1,0 +1,51 @@
+#header{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+}
+#header h1{
+    display: flex;
+    ;
+}
+#icon_wrap{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.window_write{
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-image: url(../assets/Pen_icon-icons.com_55839.png);
+}
+.window_re{
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-image: url(../assets/dock_window_icon_138670.png);
+}
+.window_x{
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-image: url(../assets/window_close_icon_135015.png);
+}
+#adress_wrap{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #eeeeee;
+}
+#adress_wrap div{
+    width: 1200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+#adress_wrap div>p{
+    padding-left: 20px;
+    line-height: 50px;
+}

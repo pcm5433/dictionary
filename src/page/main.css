@@ -1,0 +1,10 @@
+#main{
+    width: 1440px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 30px 19px;
+    display: flex;
+    border: 1px solid #eee;
+    background-color: #fff;
+    overflow: scroll;
+}

@@ -1,0 +1,39 @@
+#write_wrap{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 30px 19px;
+    border: 1px solid #eee;
+    background-color: #fff;
+}
+#write_wrap>h2{
+    padding: 30px;
+    text-align: center
+}
+#write_wrap>div{
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#write_wrap>div:last-child{
+    justify-content: end;
+}
+#write_wrap label{
+    width: 50px;
+    font-weight: bold;
+}
+#write_wrap input{
+    padding: 10px;
+}
+#write_wrap textarea{
+    width: 750px;
+    height: 200px;
+    padding: 10px;
+}
+#write_wrap button{
+    width: 80px;
+    height: 30px;
+    border: none;
+}
