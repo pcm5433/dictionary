@@ -59,11 +59,13 @@ function App() {
     <div className="App">
       <dataContext.Provider value={datas}>
         <editContext.Provider value={memoWord}>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="/write" element={<Write />} />
-          </Routes>
+          <div className="posi">
+            <Header />
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="/write" element={<Write />} />
+            </Routes>
+          </div>
         </editContext.Provider>
       </dataContext.Provider>
     </div>
