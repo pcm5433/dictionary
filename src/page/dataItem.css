@@ -18,6 +18,9 @@ dt>img{
 dt>span:last-child{
     font-size: 20px;
 }
+dd textarea{
+    width: 100%;
+}
 .btn{
     padding-top: 20px;
     display: flex;
